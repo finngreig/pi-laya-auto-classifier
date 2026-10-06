@@ -31,7 +31,8 @@
     "docs",
     "README.md",
     "CHANGELOG.md",
-    "LICENSE"
+    "LICENSE",
+    "THIRD_PARTY_NOTICES"
   ],
   "pi": {
     "extensions": [

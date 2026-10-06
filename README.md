@@ -238,4 +238,4 @@ style behaviour. Laya is by [Convai Innovations](https://huggingface.co/convaiin
 
 ## Licence
 
-MIT. See [LICENSE](./LICENSE), which also carries the notices for the adapted code.
+MIT. See [LICENSE](./LICENSE). Code adapted from other projects is credited, with their licence notices, in [THIRD_PARTY_NOTICES](./THIRD_PARTY_NOTICES).

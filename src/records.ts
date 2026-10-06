@@ -5,7 +5,7 @@
  * purpose: the agent should not learn to argue with the gate. The agent only sees
  * the block reason returned from `tool_call`.
  *
- * The renderer is adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * The renderer is adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";

@@ -10,7 +10,7 @@
  * anything it can recognise, it decides or flags here.
  *
  * Adapted from pi-jev-auto-mode (MIT), whose command pattern catalogue is in turn
- * adapted from `@nilskluewer/pi-auto-permission-gate` (MIT). See LICENSE.
+ * adapted from `@nilskluewer/pi-auto-permission-gate` (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { isAbsolute, relative, resolve, sep } from "node:path";

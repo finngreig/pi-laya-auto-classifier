@@ -10,7 +10,7 @@
  * at a different "Laya" is the one change that could quietly approve everything,
  * so a repository never gets to make it.
  *
- * Validation is adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * Validation is adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { mkdir, readFile, rename, writeFile } from "node:fs/promises";

@@ -6,7 +6,7 @@
  * them shape "what the user wants" would let repository content argue for its own
  * approval.
  *
- * Adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * Adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { redactSecrets } from "./call.ts";

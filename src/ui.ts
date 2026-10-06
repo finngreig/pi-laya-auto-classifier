@@ -1,7 +1,7 @@
 /**
  * Footer status and user-facing text.
  *
- * The preview bounding is adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * The preview bounding is adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { formatThreshold } from "./laya/decide.ts";

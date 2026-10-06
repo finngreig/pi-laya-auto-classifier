@@ -21,7 +21,7 @@
  *    asked for the call.
  * 5. Otherwise the call is allowed.
  *
- * Adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * Adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { INTENT_RULE_ID, safeProbability, type LayaRule, type OptionOrder } from "./questions.ts";

@@ -6,7 +6,7 @@
  * state per question, so the action is kept short and whole, and anything that
  * cannot be shown in full is reported as such rather than silently cut.
  *
- * Redaction and the call shape are adapted from pi-jev-auto-mode (MIT). See LICENSE.
+ * Redaction and the call shape are adapted from pi-jev-auto-mode (MIT). See THIRD_PARTY_NOTICES.
  */
 
 import { existsSync, realpathSync } from "node:fs";

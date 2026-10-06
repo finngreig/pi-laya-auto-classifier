@@ -1,6 +1,24 @@
+Third-party notices
+===================
+
+Parts of this project are adapted from pi-jev-auto-mode
+(https://github.com/jomatsu/pi-jev-auto-mode): the deterministic policy layer
+and its command pattern catalogue (src/policy.ts), the tool call view and
+redaction (src/call.ts), user intent extraction (src/intent.ts), threshold
+composition (src/laya/decide.ts), settings validation (src/settings.ts), the
+decision record renderer (src/records.ts) and the dialog preview bounding
+(src/ui.ts).
+
+pi-jev-auto-mode's command pattern catalogue is in turn adapted from
+@nilskluewer/pi-auto-permission-gate
+(https://github.com/nilskluewer/pi-auto-permission-gate). Both projects are MIT
+licensed. The pi-jev-auto-mode notice follows.
+
+-------------------------------------------------------------------------------
+
 MIT License
 
-Copyright (c) 2026 finngreig
+Copyright (c) 2026 jomatsu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
