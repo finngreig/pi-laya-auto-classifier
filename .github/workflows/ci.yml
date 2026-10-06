@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        node: [22, 24]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      # The suite runs offline: Laya is stubbed at the HTTP boundary, so no model,
+      # Python or network is needed here. Calibration against a real server is a
+      # separate script (scripts/calibrate.ts).
+      - run: npm ci
+      - run: npm run check

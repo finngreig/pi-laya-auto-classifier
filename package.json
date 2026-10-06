@@ -1,0 +1,64 @@
+{
+  "name": "pi-laya-auto-classifier",
+  "version": "0.1.0",
+  "description": "Auto mode for the Pi coding agent, judged by Laya running locally: deterministic rules first, then Laya's calibrated decisions, and it fails closed when no decision can be made.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-coding-agent",
+    "auto-mode",
+    "permission",
+    "guardrail",
+    "laya",
+    "classifier"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/finngreig/pi-laya-auto-classifier",
+  "bugs": {
+    "url": "https://github.com/finngreig/pi-laya-auto-classifier/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finngreig/pi-laya-auto-classifier.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "files": [
+    "index.ts",
+    "src",
+    "docs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --test --experimental-strip-types --no-warnings=ExperimentalWarning --test-reporter=spec 'test/**/*.test.ts'",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": {
+      "optional": true
+    },
+    "@earendil-works/pi-tui": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^1.0.4",
+    "@earendil-works/pi-tui": "^1.0.4",
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}
